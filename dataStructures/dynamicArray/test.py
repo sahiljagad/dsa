@@ -36,7 +36,6 @@ x.pop(2) # second 0, index has now moved down 1 from insert at 3
 x.pop(3) # third 0 index has now moved down 2 from insert at 5
 x.pop()
 x.pop(100)
-print(x)
 assert str(x) == "[1 2 3 4 5 6]"
 assert x.size == 6
 assert x.capacity == 10

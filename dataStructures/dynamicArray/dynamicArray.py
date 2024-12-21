@@ -1,5 +1,4 @@
 class DynamicArray():
-
     def __init__(self):
         self.capacity = 5
         self.size = 0
